@@ -36,5 +36,5 @@ Resources:
             Queue: arn:aws:sqs:us-east-1:277707095064:SubhashImageApp-UploadsNotificationQueue
             BatchSize: 5
 
-      DeploymentPreference:
-        Type: Linear10PercentEvery1Minute
+#      DeploymentPreference:
+#        Type: Linear10PercentEvery1Minute
