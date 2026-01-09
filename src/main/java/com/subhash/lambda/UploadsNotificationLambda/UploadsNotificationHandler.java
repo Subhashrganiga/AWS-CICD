@@ -17,6 +17,7 @@ public class UploadsNotificationHandler
     public Void handleRequest(SQSEvent event, Context context) {
 
         // ✅ Guard clause (MANDATORY)
+//        ss
         if (event == null || event.getRecords() == null || event.getRecords().isEmpty()) {
             context.getLogger().log("No SQS records found. Invocation source is not SQS.");
             return null;
